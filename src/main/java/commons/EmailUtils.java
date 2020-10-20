@@ -28,7 +28,7 @@ public class EmailUtils {
 	private Folder folder;
 
 	public enum EmailFolder {
-		INBOX("INBOX"), SPAM("SPAM"), IPI_SYSTEM("IPI-SYSTEM");
+		INBOX("INBOX"), SPAM("SPAM");
 
 		private String text;
 

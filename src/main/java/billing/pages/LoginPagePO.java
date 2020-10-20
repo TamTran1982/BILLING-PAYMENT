@@ -1,9 +1,6 @@
 package billing.pages;
 
 import java.sql.ResultSet;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import org.openqa.selenium.WebDriver;
 
 import commons.AbstractPage;
