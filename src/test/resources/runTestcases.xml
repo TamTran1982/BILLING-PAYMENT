@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Billing Payment Project" parallel="false">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Run test scripts on Chrome">
+		<parameter name="browser" value="Chrome" />	
+		<parameter name="authenuser" value="admin" />
+		<parameter name="authenpass" value="Besupport@2018" />
+		<parameter name="url" value="https://{0}:{1}@bill-payment-qat.beyondedge.com.sg:4431/" />
+		<parameter name="version" value="86.0" />
+		<classes>
+			<class	name="billing_payment.script.TestScript_1" />
+		</classes>
+	</test>
+
+</suite> 

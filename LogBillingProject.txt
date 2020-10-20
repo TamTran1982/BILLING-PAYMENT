@@ -1,0 +1,3 @@
+2020-10-19 17:28:55,950 INFO  billing_payment.script.TestScript_1 - ---------- START Chrome SUCCESS ----------
+2020-10-19 17:29:05,659 INFO  billing_payment.script.TestScript_1 - ---------- QUIT Chrome SUCCESS ----------
+2020-10-19 17:29:05,659 INFO  billing_payment.script.TestScript_1 - ---------- CLOSE CONNECTION DATABASE SUCCESS ----------
